@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios Propostos Pelo Eron</title>
+</head>
+<body>
+    <script>
+        window.alert('Primeiro desafio do Eron')
+        window.alert('Fala, Eron! Beleza? Primeiro desafio era imprimir meu nome na tela, certo? Pois aí vai!')
+        document.writeln ('1º) Meu nome é <strong>Carlos</strong>')
+        window.alert('Segundo desafio: Uma função que imprime o nome que você escolher. Pois bem...')
+        var nome = prompt("Digite um nome")
+        document.writeln(`2º) O nome que você digitou foi <strong> ${nome}</strong>.`)
+    </script>
+</body>
+</html>
